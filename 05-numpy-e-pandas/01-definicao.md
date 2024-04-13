@@ -17,3 +17,14 @@ O Pandas é uma biblioteca que facilita a manipulação de dados, além de possu
 * Os DataFrames do Pandas lembram muito o excel.
 
 
+Diferentes nomeclaturas entre Pandas e Excel:
+
+</br>
+
+
+| Excel         | Pandas        |
+| ------------- | ------------- |
+| Tabela        | DataFrame     |
+| Coluna        | Series        |
+
+* Todos os elementos de uma Series em Pandas são do mesmo tipo.
