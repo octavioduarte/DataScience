@@ -42,3 +42,10 @@
     Datasets desbalanceados são aqueles onde a coluna "alvo" que usaremos para treinar nosso modelo não tem uma grande variação em seus valores.
 
     Um exemplo se montarmos um modelo de Machine Learning para prevenção de fraude em compras de cartão de crédito, convenhamos que não é tão comum que as compras de um cliente sejam resultado de uma fraude, por tanto, se tivéssemos uma coluna que indicasse que a compra é fraude ou não, algo do tipo "is_fraud" grande parte dos valores seriam false, por que boa parte das compras foram de fato realizada pelo cliente, por tanto, ao treinar um modelo com estes dados sem estratégias de balanceamento fará com que nosso modelo tenha uma tendência a aceitar (quase) quaisquer compras como legitimas o que não pode ser tomado como uma verdade em todos os casos. 
+
+
+<h2>Atenção com colunas que são identificadores:</h2>
+
+
+    Colunas que tem o propósito de identificar um registro (normalmente com o nome id) são normalmente descartadas de um Dataset que servirá para o treinamento de um modelo, isso por que são colunas que não agregam muito para um treinamento, em resumo na boa parte dos casos vale a pena remove-las do nosso Dataset.
+
