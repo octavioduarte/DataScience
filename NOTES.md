@@ -31,6 +31,14 @@
 
 <h2>O que são Outliers:</h2>
 
-Outliers são valores que fogem do padrão de um conjunto de dados. São valores muito alto ou muito baixos que podem influenciar negativamente em uma análise dos dados. Por exemplo, se temos um conjunto de dados com salários de funcionários de uma empresa e um dos salários é muito maior do que os outros esse valor pode ser considerado um outlier.
+    Outliers são valores que fogem do padrão de um conjunto de dados. São valores muito alto ou muito baixos que podem influenciar negativamente em uma análise dos dados. Por exemplo, se temos um conjunto de dados com salários de funcionários de uma empresa e um dos salários é muito maior do que os outros esse valor pode ser considerado um outlier.
 
-Estatisticamente um outlier é um valor que está 1.5 vezes o intervalo interquartil acima do Q3 ou a mais de 1.5 vezes o intervalo interquartil abaixo do Q1. O intervalo interquartil é a diferença entre o  Q3 e o Q1
+    Estatisticamente um outlier é um valor que está 1.5 vezes o intervalo interquartil acima do Q3 ou a mais de 1.5 vezes o intervalo interquartil abaixo do Q1. O intervalo interquartil é a diferença entre o  Q3 e o Q1
+
+
+<h2>O cuidado com Datasets desbalanceados:</h2>
+
+
+    Datasets desbalanceados são aqueles onde a coluna "alvo" que usaremos para treinar nosso modelo não tem uma grande variação em seus valores.
+
+    Um exemplo se montarmos um modelo de Machine Learning para prevenção de fraude em compras de cartão de crédito, convenhamos que não é tão comum que as compras de um cliente sejam resultado de uma fraude, por tanto, se tivéssemos uma coluna que indicasse que a compra é fraude ou não, algo do tipo "is_fraud" grande parte dos valores seriam false, por que boa parte das compras foram de fato realizada pelo cliente, por tanto, ao treinar um modelo com estes dados sem estratégias de balanceamento fará com que nosso modelo tenha uma tendência a aceitar (quase) quaisquer compras como legitimas o que não pode ser tomado como uma verdade em todos os casos. 
