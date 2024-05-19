@@ -43,3 +43,12 @@
 for column in df.columns:
     print(f"{column}: {df[column].unique()}")
 ~~~
+
+
+
+#### No Jupyter Notebook podemos consultar a documentação de um método utilizando '?' antes da declaração do método e presssionando Shift + Enter
+~~~python
+    # Digite em uma célula:
+    ?df.pivot_table
+    # Depois pressione  Shift + Enter
+~~~
