@@ -27,3 +27,12 @@
     TOTAL_DE_REGISTROS_RETORNADOS = 10
     df.nsmallest(TOTAL_DE_REGISTROS_RETORNADOS, "Nome Da Coluna")
 ~~~
+
+
+#### Remover colunas cujo os valores não possuem variação
+~~~python
+    for c in df.columns:
+        column = df[c]
+        if (column.nunique() <= 1):
+            df = df.drop(c, axis=1)
+~~~
