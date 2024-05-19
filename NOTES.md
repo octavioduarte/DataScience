@@ -49,3 +49,10 @@
 
     Colunas que tem o propósito de identificar um registro (normalmente com o nome id) são normalmente descartadas de um Dataset que servirá para o treinamento de um modelo, isso por que são colunas que não agregam muito para um treinamento, em resumo na boa parte dos casos vale a pena remove-las do nosso Dataset.
 
+
+
+
+
+
+Links úteis: </br>
+    [Introdução ao Pivot Table](https://www.youtube.com/watch?v=Ns5qXfPrBm8)
