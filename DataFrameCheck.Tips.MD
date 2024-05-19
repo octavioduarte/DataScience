@@ -36,3 +36,10 @@
         if (column.nunique() <= 1):
             df = df.drop(c, axis=1)
 ~~~
+
+
+#### Visualizar todas as variações de valores de uma coluna
+~~~python
+for column in df.columns:
+    print(f"{column}: {df[column].unique()}")
+~~~
