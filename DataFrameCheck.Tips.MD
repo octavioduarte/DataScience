@@ -54,4 +54,4 @@ for column in df.columns:
 ~~~
 
 
-### Tenha cuidado ao analisar dados não inteiros, como médias ou percentuais, pois eles podem levar a conclusões equivocadas. Por exemplo, posso extrair de um conjunto de dados que a média das notas dos alunos canhotos é maior do que a dos destros. No entanto, essa média pode ser baseada em apenas 2 canhotos e 120 destros. Também posso afirmar que 100% dos alunos que escrevem com a mão esquerda têm notas acima de 8. Embora este exemplo pareça exagerado, ele ilustra como dados podem transmitir conclusões enganosas.
+#### Tenha cuidado ao analisar dados não inteiros, como médias ou percentuais, pois eles podem levar a conclusões equivocadas. Por exemplo, posso extrair de um conjunto de dados que a média das notas dos alunos canhotos é maior do que a dos destros. No entanto, essa média pode ser baseada em apenas 2 canhotos e 120 destros. Também posso afirmar que 100% dos alunos que escrevem com a mão esquerda têm notas acima de 8. Embora este exemplo pareça exagerado, ele ilustra como dados podem transmitir conclusões enganosas.
