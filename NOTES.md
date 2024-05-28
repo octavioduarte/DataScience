@@ -50,6 +50,12 @@
     Colunas que tem o propósito de identificar um registro (normalmente com o nome id) são normalmente descartadas de um Dataset que servirá para o treinamento de um modelo, isso por que são colunas que não agregam muito para um treinamento, em resumo na boa parte dos casos vale a pena remove-las do nosso Dataset.
 
 
+<h2>Histogramas x Gráfico de barras:</h2>
+
+
+    Apesar da semelhança visual um histograma e um gráfico de barras tem diferentes propósitos, enquanto o **gráfico de barras serve pra visualizarmos os dados por categorias**, por exemplo, quantidade de funcionários por departamento (departamento  é categórico), o **histrograma serve para ver a quantidade de pessoas por faixa etária (faixa etária não é categórica)**.
+
+
 
 
 
