@@ -11,23 +11,34 @@
 <br/>
 <br/>
 
-<h2>O que são Quartis:</h2>
 
-Quartis são valores que dividem nosso conjunto de dados em 4 partes iguais. O primeiro quartil (Q1) é o valor que deixa 25% dos dados abaixo e 75% acima, o segundo quartil (Q2) é a mediana, que deixa 50% dos dados abaixo e 50% acima. O terceiro quartil (Q4) deixa 75% dos dados abaixo e 25% doas dados acima.
+<h2>Percentil e Quartil:</h2>
 
-Um exemplo, supondo que utilizemos o método .describe() do Pandas e verificamos que para a coluna idade do nosso DataSet temos: 
+Percentil é uma medida de posição, ele é útil para entendermos como nossos dados estão distribuídos. Utilizando um exemplo muito comum de blogs de cientistas de dados vamos criar um exemplo com 20 notas de uma prova entre 0 e 100:
 
-        Q1    Q2   Q3   Q4 (MAX)
-std:    30    36   43   60
+~~~python
+    [14, 20, 24, 29, 34, 39, 44, 49, 54, 59, 64, 69, 74, 79, 84, 89, 92, 94, 96, 100]
+~~~
+
+Agora desejo obter um valor onde 25% dos dados são menores ou igual a ele, para isso utilizamos a seguinte formula:
+
+    (Percentual x Tamanho dos Dados) / 100
+
+Aplicando com os dados do exemplo acima: 
+
+    (25 * 20) / 100 =  5
+
+A posição 5 no nosso intervalo de dados é 34, ou seja, 25% das notas são iguais ou menores a 34.
+Em termos técnicos podemos dizer que o percentil 25 dos nosso dados é 34.
 
 
-Podemos concluir que: 
+Agora podemos falar sobre Quartis, na prática são o Percentil 25%, 50% e 75% técnicamente chamados de Q1, Q2 e Q3. 
 
-    - 25% das pessoas deste Dataset tem 30 anos ou menos (Q1)
-    - 50% das pessoas deste Dataset tem 36 anos ou menos (Q2)
-    - 75% das pessoas deste Dataset tem 43 anos ou menos (Q3)
-    - 100% das pessoas deste Dataset tem 60 anos ou menos
- 
+Importante lembrar que:
+
+    O Q2, o P50 e a Mediana serão sempre o mesmo valor.
+
+
 <br/>
 <br/>
 <br/>
