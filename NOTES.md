@@ -56,6 +56,29 @@
     Apesar da semelhança visual um histograma e um gráfico de barras tem diferentes propósitos, enquanto o **gráfico de barras serve pra visualizarmos os dados por categorias**, por exemplo, quantidade de funcionários por departamento (departamento  é categórico), o **histrograma serve para ver a quantidade de pessoas por faixa etária (faixa etária não é categórica)**.
 
 
+<h2>Variáveis categóricas:</h2>
+
+
+    Dentro de um dataset vamos ter colunas categóricas, são colunas com pouca variação de valores que agrupam um conjunto de registros. Um exemplo seria um Dataset contendo dados de funcionários de uma empresa, onde o departamento é uma variável cateórica, pois não possui grande variação de registros, agrupa (representa) um cojunto de dados:
+
+
+    | ID          | Nome             | Departmento | Posição            | Email                       |
+    |-------------|------------------|-------------|--------------------|-----------------------------|
+    | 001         | John Doe         | Marketing   | Gerente            | john.doe@example.com        |
+    | 002         | Jane Smith       | Vendas      | Executivo de vendas| jane.smith@example.com      |
+    | 003         | Michael Johnson  | TI          | Developer          | michael.johnson@example.com |
+    | 004         | Emily Davis      | RH          | Especialista de RH | emily.davis@example.com     |
+    | 005         | William Brown    | Finanças    | Contador           | william.brown@example.com   |
+    | 006         | John Doe         | Marketing   | Gerente            | john.doe@example.com        |
+    | 007         | Jane Smith       | Vendas      | Executivo de Vendas| jane.smith@example.com      |
+    | 008         | Michael Johnson  | TI          | Desenvolvedor      | michael.johnson@example.com |
+    | 009         | Emily Davis      | RH          | Especialista de RH | emily.davis@example.com     |
+    | 0010        | William Brown    | Finanças    | Contador           | william.brown@example.com   |
+
+    Dentro do conceito de variáveis categóricas temos **Variáveis Categóricas Ordenadas** e **Variáveis Categóricas Não Ordernadas**, entende-se as categóricas ordenadas como variáveis onde suas categorias possuem uma hierarquia, ascendencia ou coisas do tipo. O exemplo do departamento não é um exemplo de variável categórica ordenada, não podemos determinar uma hierarquia entre diferentes departamentos de uma empresa, mas um bom exemplo é a coluna "Posição" ela é uma variável categórica e podemos determina-la como ordenada pois há uma hierarquia entre suas classe, como dizer que um "gerente" responde a um "diretor" que por sua vez responde a um "presidente".  
+
+
+
 
 
 
