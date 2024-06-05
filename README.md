@@ -104,4 +104,6 @@ Dentro de um dataset vamos ter colunas categóricas, são colunas com pouca vari
 Dentro do conceito de variáveis categóricas temos **Variáveis Categóricas Ordenadas** e **Variáveis Categóricas Não Ordernadas**, entende-se as categóricas ordenadas como variáveis onde suas categorias possuem uma hierarquia, ascendencia ou coisas do tipo. O exemplo do departamento não é um exemplo de variável categórica ordenada, não podemos determinar uma hierarquia entre diferentes departamentos de uma empresa, mas um bom exemplo é a coluna "Posição" ela é uma variável categórica e podemos determina-la como ordenada pois há uma hierarquia entre suas classe, como dizer que um "gerente" responde a um "diretor" que por sua vez responde a um "presidente".  
 
 Links úteis: </br>
-    [Introdução ao Pivot Table](https://www.youtube.com/watch?v=Ns5qXfPrBm8)
+    [Introdução ao Pivot Table](https://www.youtube.com/watch?v=Ns5qXfPrBm8) </br>
+    [Fatiamento Arrays](https://www.youtube.com/watch?v=bJlANNWXsCM)  </br>
+    [Boxplot - Quartil - Percentil](https://www.youtube.com/watch?v=bJlANNWXsCM)
